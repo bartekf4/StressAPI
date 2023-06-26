@@ -16,6 +16,7 @@ print(signals['EDA_Phasic'].std())
 print('\n')
 print(signals["EDA_Raw"].mean())
 print(signals["EDA_Clean"].mean())
+print(signals.keys())
 
 
 

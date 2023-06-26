@@ -16,3 +16,5 @@ class Model:
 
     def predict_proba(self, data) -> str:
         return str(self.model.predict_proba(np.array(data).reshape(1, -1))[0][1])
+
+    # re = {0 : 'amusement', 1: 'baseline', 2: 'stress'}
